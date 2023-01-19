@@ -1,0 +1,28 @@
+.transactionHistory {
+  width: 700px;
+  border: 1px solid black;
+}
+
+thead {
+  display: flex;
+  text-transform: uppercase;
+  background-color: rgb(99, 99, 247);
+  width: 100%;
+  padding: 15px 0;
+}
+
+tr {
+  display: flex;
+  width: 100%;
+  padding: 15px 0;
+}
+
+tr:nth-of-type(odd) {
+  background: rgba(99, 99, 247, 0.3);
+}
+
+td,
+th {
+  flex: 1 1 20%;
+  text-align: center;
+}
